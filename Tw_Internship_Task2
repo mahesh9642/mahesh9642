@@ -1,0 +1,112 @@
+import java.util.*;
+
+public class ATM_Interface {
+
+public static void main(String[] args) {
+
+int balance =0;
+
+System.out.println("Balance" +balance);
+
+System.out.println(x:"ATM MACHINE");
+
+try (Scanner scanner = new Scanner(System.in)) {
+
+while(true)
+
+System.out.println(x: "Choose 1 for Withdraw");
+
+System.out.println(x: "Choose 2 for Deposit");
+
+System.out.println(x: "Choose 3 for Check Balance");
+
+System.out.println(x: "Choose 4 for Exit");
+
+System.out.print(s: "Choose the Operation:");
+
+int ch=scanner.nextInt();
+
+System.out.println(ch);
+
+switch (ch)
+
+{
+
+1: System.out.println(x: "You have chosen to withdraw ----");
+
+case
+
+System.out.println(x: "Enter the amount to withdraw:");
+
+int withdraw=scanner.nextInt();
+
+if(withdraw >= balance){
+
+System.out.println("you have not sufficient balance.\nYour balance is: "+ balance+"Rupee
+
+}
+
+else
+
+balance-=withdraw;
+
+System.out.println(x: "Your Withdrawal was successful");
+
+}
+
+break;
+
+case 2:
+
+System.out.println(x: "You have chosen to Deposit----");
+
+System.out.println(x: "Enter the Amount to be Deposit: ");
+
+int deposit=scanner.nextInt();
+
+balance+=deposit;
+
+System.out.println(x: "Your Money has been successfully Deposited");
+
+break;
+
+T
+
+System.out.println(x: "You have chosen to Check Balance--");
+
+case 3:
+
+System.out.println("Your current Account Balance is:" +balance+" Rupees.");
+
+break;
+}
+
+break;
+
+case 2:
+
+System.out.println(x: "You have chosen to Deposit----");
+
+System.out.println(x: "Enter the Amount to be Deposit: ");
+
+int deposit=sc.nextInt();
+
+balance+=deposit;
+
+System.out.println(x: "Your Money has been successfully Deposited");
+
+break;
+
+case 3:
+
+System.out.println(x: "You have chosen to Check Balance--");
+
+System.out.println("Your current Account Balance is:" +balance+" Rupees."); break;
+
+case 4:
+
+return; // exit
+
+default:
+
+System.out.println(x: "Invalid choice...Try Again"); // for invalid input
