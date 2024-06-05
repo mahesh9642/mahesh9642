@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on java related projects 
 - 📫 How to reach me mahesh62531@gmail.com
 - 😄 Pronouns: He
-- ⚡ Fun fact: when smile not come while talking picture say ABCD next what?😀
+- ⚡ Fun fact: when smile not come while taking picture say ABCD next what?😀
 
 - ✨Frontend: HTML, CSS and JavaScript
 
