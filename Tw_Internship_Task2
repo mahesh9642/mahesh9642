@@ -1,42 +1,53 @@
+package com.TopperWorld.AtmInterface;
+
 import java.util.*;
 
 public class ATM_Interface {
 
 public static void main(String[] args) {
+Scanner scanner=new Scanner(System.in);
 
+int accountNumber=123456;
+int pin=1234;
 int balance =0;
 
 System.out.println("Balance" +balance);
 
-System.out.println(x:"ATM MACHINE");
+System.out.println("Enter your account number:");
+int enteredAccountNumber=scanner.nextInt();
 
-try (Scanner scanner = new Scanner(System.in)) {
+System.out.println("Enter you pin:");
+int enteredPin=scanner.nextInt();
 
-while(true)
 
-System.out.println(x: "Choose 1 for Withdraw");
+while(true){
+System.out.println("Welcome to the ATM");
 
-System.out.println(x: "Choose 2 for Deposit");
+if(enteredAccountNumber==accountNumber && enteredPin){
+  boolean isLoggedIn=true;
+}else{
+System.out.println("Invalid account number or PIN.Please try again.");
+}
+System.out.println("ATM MENU");
+System.out.println("Choose 1 for Withdraw");
 
-System.out.println(x: "Choose 3 for Check Balance");
+System.out.println("Choose 2 for Deposit");
 
-System.out.println(x: "Choose 4 for Exit");
+System.out.println("Choose 3 for Check Balance");
 
-System.out.print(s: "Choose the Operation:");
+System.out.println("Choose 4 for Exit");
 
-int ch=scanner.nextInt();
+System.out.print("Choose the Operation:");
 
-System.out.println(ch);
+int choice=scanner.nextInt();
 
-switch (ch)
+System.out.println(choice);
 
-{
+switch (choice){
+case 1:
 
-1: System.out.println(x: "You have chosen to withdraw ----");
-
-case
-
-System.out.println(x: "Enter the amount to withdraw:");
+ System.out.println("You have chosen to withdraw");
+ System.out.println("Enter the amount to withdraw:");
 
 int withdraw=scanner.nextInt();
 
@@ -44,13 +55,12 @@ if(withdraw >= balance){
 
 System.out.println("you have not sufficient balance.\nYour balance is: "+ balance+"Rupee
 
-}
-
-else
+}else{
 
 balance-=withdraw;
+System.out.println("Your withdrawal was successful");
 
-System.out.println(x: "Your Withdrawal was successful");
+System.out.println("Your Withdrawal was successful");
 
 }
 
@@ -58,55 +68,28 @@ break;
 
 case 2:
 
-System.out.println(x: "You have chosen to Deposit----");
+System.out.println("You have chosen to Deposit");
 
-System.out.println(x: "Enter the Amount to be Deposit: ");
+System.out.println("Enter the Amount to be Deposit: ");
 
 int deposit=scanner.nextInt();
 
 balance+=deposit;
 
-System.out.println(x: "Your Money has been successfully Deposited");
+System.out.println("Your Money has been successfully Deposited.Current Account is:"+balance);
 
 break;
 
-T
-
-System.out.println(x: "You have chosen to Check Balance--");
-
 case 3:
-
+System.out.println("You choosen to Check Balance");
 System.out.println("Your current Account Balance is:" +balance+" Rupees.");
 
 break;
-}
-
-break;
-
-case 2:
-
-System.out.println(x: "You have chosen to Deposit----");
-
-System.out.println(x: "Enter the Amount to be Deposit: ");
-
-int deposit=sc.nextInt();
-
-balance+=deposit;
-
-System.out.println(x: "Your Money has been successfully Deposited");
-
-break;
-
-case 3:
-
-System.out.println(x: "You have chosen to Check Balance--");
-
-System.out.println("Your current Account Balance is:" +balance+" Rupees."); break;
-
 case 4:
+System.out.println("Exit");
 
 return; // exit
-
 default:
 
-System.out.println(x: "Invalid choice...Try Again"); // for invalid input
+System.out.println(x: "Invalid choice...Try Again"); // for invalid input}}}}
+}}}}
