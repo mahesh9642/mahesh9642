@@ -5,8 +5,11 @@
 - 📫 How to reach me mahesh62531@gmail.com
 - 😄 Pronouns: He
 - ⚡ Fun fact: when smile not come while talking picture say ABCD next what?😀
-- ✨Frontend: HTML, CSS and JavaScript 
+
+- ✨Frontend: HTML, CSS and JavaScript
+
 -✨ Backend:c, python,Java.
+
 -✨ Data base: MySQL 
 <!---
 mahesh9642/mahesh9642 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
